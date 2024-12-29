@@ -14,7 +14,7 @@ const LoginScreen = ({ navigation }) => {
       }
 
       console.log('posting', email, password)
-      const response = await axios.post('http://10.0.0.53:8000/login', { email, password });
+      const response = await axios.post('backend link', { email, password });
 
       const success = response.status === 200;
 
