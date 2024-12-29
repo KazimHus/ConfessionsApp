@@ -9,7 +9,7 @@ const ConfessionScreen = ({ navigation }) => {
     const handleNext = async () => {
         try {
             console.log('posting', confession);
-            const response = await axios.post('http://10.0.0.53:8000/confessions', { confession });
+            const response = await axios.post('backend link', { confession });
 
             const success = response.status === 201;
 
