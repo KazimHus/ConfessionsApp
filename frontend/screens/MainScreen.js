@@ -10,7 +10,7 @@ const MainScreen = ({ navigation }) => {
     useEffect(() => {
         const fetchConfessions = async () => {
             try {
-                const response = await axios.get('http://10.0.0.53:8000/carousel');
+                const response = await axios.get('backend link');
                 setConfessions(response.data);
             } catch (error) {
                 Alert.alert('Error', 'An error occurred while fetching confessions');
