@@ -4,7 +4,7 @@ const { MongoClient } = require('mongodb')
 const bcrypt = require('bcrypt');
 const { v4: uuidv4 } = require('uuid')
 const cors = require('cors')
-const uri = 'mongodb+srv://kazimhussain2003:overWRITE_77@cluster0.zirmm28.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+const uri = 'yourlink'
 
 const app = express()
 app.use(cors())
